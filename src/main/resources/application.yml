@@ -1,0 +1,25 @@
+server:
+  port: 26817
+
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/test
+#    username: postgres
+#    password: Crepus_7pg
+#    driver-class-name: org.postgresql.Driver
+#
+#  jpa:
+#    properties:
+#      hibernate:
+#        jdbc:
+#          lob:
+#            non_contextual_creation: true
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        format_sql: true
+#    show-sql: true
+#
+#  sql:
+#    init:
+#      mode: always # only for develop
+##      schema-locations: classpath:schema-postgres.sql
+##      data-locations: classpath:data-postgres.sql
