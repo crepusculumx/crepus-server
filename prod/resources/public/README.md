@@ -1,0 +1,1 @@
+blog文件目录应当放在`/home/crepusculumx/crepus-service-resources/`下，将被链接至此处，该文件夹会被挂载进容器同路径下。
