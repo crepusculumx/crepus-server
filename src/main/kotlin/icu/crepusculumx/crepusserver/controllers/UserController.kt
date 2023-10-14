@@ -1,4 +1,4 @@
-package icu.crepusculumx.crepusserver.Controllers
+package icu.crepusculumx.crepusserver.controllers
 
 import org.springframework.web.bind.annotation.*
 import java.io.File
