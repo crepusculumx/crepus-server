@@ -1,5 +1,24 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+allprojects {
+	buildscript {
+		repositories {
+			maven { setUrl("https://maven.aliyun.com/repository/central") }
+			maven { setUrl("https://maven.aliyun.com/repository/jcenter") }
+			maven { setUrl("https://maven.aliyun.com/repository/google") }
+			maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
+			maven { setUrl("https://maven.aliyun.com/repository/public") }
+		}
+	}
+	repositories {
+		maven { setUrl("https://maven.aliyun.com/repository/central") }
+		maven { setUrl("https://maven.aliyun.com/repository/jcenter") }
+		maven { setUrl("https://maven.aliyun.com/repository/google") }
+		maven { setUrl("https://maven.aliyun.com/repository/gradle-plugin") }
+		maven { setUrl("https://maven.aliyun.com/repository/public") }
+	}
+}
+
 plugins {
 	id("org.springframework.boot") version "3.1.3"
 	id("io.spring.dependency-management") version "1.1.3"
